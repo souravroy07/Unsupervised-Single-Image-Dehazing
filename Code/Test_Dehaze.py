@@ -4,7 +4,7 @@ from os.path import dirname, abspath
 import matplotlib.pyplot as plt
 import tensorflow as tf
 from PIL import Image
-from skimage.measure import compare_ssim as ssim
+from skimage.metrics import structural_similarity as ssim
 import numpy as np
 import math
 import cv2
